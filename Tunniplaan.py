@@ -36,7 +36,7 @@ Button(text="Inglih").grid(row=4,column=7,columnspan=2)
 Button(text="Rakendus").grid(row=4,column=9,columnspan=2)
 Button(text="ruhma tund").grid(row=4,column=11)
 Button(text="Estikell").grid(row=5,column=2,columnspan=2)
-Button(text="Programeriumine").grid(row=5,column=4,columnspan=5)
+Button(text="                 Programeriumine     alused                     ").grid(row=5,column=4,columnspan=5)
 Button(text="Rakendus").grid(row=5,column=9,columnspan=2)
 
 
