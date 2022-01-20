@@ -1,0 +1,3 @@
+Capitals=()
+Capitals=dict()
+Capitals[''] = ''
