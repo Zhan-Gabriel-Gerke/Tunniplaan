@@ -11,16 +11,6 @@ def uus_aken(ind:int):
     texts=[]
     textn=[]
     tab=[]
-def loe_failist_listisse(file:str)->list:
-    """Loeme tekst failist ja salvesta järjendisse
-    """
-    file=open(file,"r")
-    list_=[]
-    for stroka in file:
-        list_.append(stroka.strip())
-    file.close()
-    return list_ 
-loe_failist_listisse("txt1.txt")
 Button(text="         ",font="Arial 15").grid(row=0,column=0)
 Button(text="Esmaspäev",relief="flat",font="Arial 15").grid(row=1,column=0)
 Button(text="Teisipäev",relief="flat",font="Arial 15").grid(row=2,column=0)
@@ -42,8 +32,7 @@ Button(text="Eestikeel Tugiõpe",bg="#6c6e6a",relief="flat",font="Arial 15",widt
 Button(text="Logistika",bg="#59ff00",relief="flat",font="Arial 15",width=30,height=3).grid(row=1,column=3,columnspan=2)
 Button(text="Matematika",bg="#fb00ff",relief="flat",font="Arial 15",width=30,height=3).grid(row=1,column=5,columnspan=2)
 Button(text="Перерыв",font="Arial 15",width=15,height=3).grid(row=1,column=7)
-Button(text="Venekell",bg="#60ad36",relief="flat",font="Arial 15",width=15,height=3).grid(row=1,column=8)
-Button(text="Venekell",bg="#60ad36",relief="flat",font="Arial 15",width=15,height=3).grid(row=1,column=9)
+Button(text="Venekell",bg="#60ad36",relief="flat",font="Arial 15",width=30,height=3).grid(row=1,column=8,columnspan=2)
 Button(text="Matemaatika Tugiõpe",bg="#fb00ff",relief="flat",font="Arial 15",width=15,height=3).grid(row=1,column=10)
 Button(text="Keemia Tugiõpe",bg="#912f2f",relief="flat",font="Arial 15",width=15,height=3).grid(row=2,column=2)
 Button(text="Програмирование",bg="#2f8491",relief="flat",font="Arial 15",width=45,height=3).grid(row=2,column=3,columnspan=3)
@@ -57,7 +46,7 @@ Button(text="Logistika",bg="#59ff00",relief="flat",font="Arial 15",width=30,heig
 Button(text="Перерыв",font="Arial 15",width=15,height=3).grid(row=4,column=4)
 Button(text="Програмирование",bg="#2f8491",relief="flat",font="Arial 15",width=30,height=3).grid(row=4,column=5,columnspan=2)
 Button(text="Rakendus",bg="#9e0e0e",relief="flat",font="Arial 15",width=30,height=3).grid(row=4,column=7,columnspan=2)
-Button(text="Eestikeel",bg="grey",relief="flat",font="Arial 15",width=30,height=3).grid(row=4,column=9,columnspan=2)
+Button(text="Eestikeel",bg="#6c6e6a",relief="flat",font="Arial 15",width=30,height=3).grid(row=4,column=9,columnspan=2)
 Button(text="Rakendus",bg="#9e0e0e",relief="flat",font="Arial 15",width=30,height=3).grid(row=5,column=2,columnspan=2)
 Button(text="Програмирование",bg="#2f8491",relief="flat",font="Arial 15",width=80,height=3).grid(row=5,column=4,columnspan=5)
 Button(text="Inglisekeel",bg="#60ad36",relief="flat",font="Arial 15",width=30,height=3).grid(row=5,column=9,columnspan=2)

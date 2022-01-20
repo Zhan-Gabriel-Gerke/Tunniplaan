@@ -1,3 +1,12 @@
-Capitals=()
+﻿Capitals=()
 Capitals=dict()
-Capitals[''] = ''
+Capitals['Logistika'] = 'Inessa Klimanskaja'
+Capitals['Matematika'] = 'Nadežda Voronova'
+Capitals['Venekell'] = 'Ljudmilla Mihhailova'
+Capitals['Keemia'] = 'Svetlana Pesetskaja'
+Capitals['Програмирование'] = 'Marina Oleinik'
+Capitals['Füüsika'] = 'Nadežda Voronova'
+Capitals['Inglisekeel'] = '	Olga Borodina'
+Capitals['Kunst'] = 'Aleksandra Norkevitš'
+Capitals['физра'] = 'Maksim Maksõmiv'
+Capitals['Rakendus'] = 'Irina Merkulova'
