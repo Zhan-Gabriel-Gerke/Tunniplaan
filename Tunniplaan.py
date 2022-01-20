@@ -1,4 +1,15 @@
 from tkinter import *
+def uus_aken(ind:int):
+    if askyesno("Küsimus","kas teen lahti?"):
+        showinfo("vastus","Teen lahti aken")
+    else:
+        showinfo("Vastus","Panen kinnu aken")
+        aken.destroy()
+    uusaken=Toplevel() #tk()
+    tabs=ttk.Notebook(uusaken)
+    texts=[]
+    textn=[]
+    tab=[]
 root=Tk()
 Button(text="Расписание LogITpv21").grid(row=0,column=1)
 Button(text="Понедельник:").grid(row=1,column=1)
