@@ -2,7 +2,7 @@ from tkinter import*
 from tkinter.messagebox import*
 root=Tk()
 root.title("tunni plan")
-root.geometry("1800x1000+100+100")
+root.geometry("1800x700+100+100")
 root.resizable(width=False, height=False)
  
 def outTextEestikeel():
