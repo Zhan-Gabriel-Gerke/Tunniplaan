@@ -1,12 +1,13 @@
-﻿Capitals=()
-Capitals=dict()
-Capitals['Logistika'] = 'Inessa Klimanskaja'
-Capitals['Matematika'] = 'Nadežda Voronova'
-Capitals['Venekell'] = 'Ljudmilla Mihhailova'
-Capitals['Keemia'] = 'Svetlana Pesetskaja'
-Capitals['Програмирование'] = 'Marina Oleinik'
-Capitals['Füüsika'] = 'Nadežda Voronova'
-Capitals['Inglisekeel'] = '	Olga Borodina'
-Capitals['Kunst'] = 'Aleksandra Norkevitš'
-Capitals['физра'] = 'Maksim Maksõmiv'
-Capitals['Rakendus'] = 'Irina Merkulova'
+﻿Matemaatika - õpetaja: Voronova Nadezda B 133 
+Programmeerimise alused (eesti keeles) - õpetaja: Oleinik Marina E 07
+Füüsika - õpetaja: Voronova Nadezda B 133
+Rakendustarkvara ja arenduskeskkonna loomine (IT valdkonna alusteadmised) - õpetaja: Merkulova Irina E 10
+Logistikateenused ja varude juhtmine - õpetaja: Klimanskaja Inessa B 002
+Kunstiained - õpetaja: Norkevitð Aleksandra B 232
+Kehaline Kasvatus - õpetaja: Maksõmiv Maksim Võimla A
+Keel ja kirjandus - õpetaja: Mihhailova Ljudmila B 221 
+Tugiõpe Matemaatika - õpetaja: Voronova Nadezda B 133 
+Tugiõpe Keemia - õpetaja: Pesetskaja Svetlana B 144 
+Eesti keel - õpetaja: Ojamäe Olesja B 234
+Inglise keel - õpetaja: Borodina Olga B 227
+tugiõpe Eesti keel - õpetaja: Ojamäe Olesja B 234
